@@ -1,0 +1,4 @@
+cron:
+- description: random tweet
+  url: /rnd_update
+  schedule: every 2 hours

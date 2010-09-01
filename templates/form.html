@@ -1,0 +1,11 @@
+<html>
+	<body>
+	<form action="/post_update/" method="POST">
+		<textarea cols="70" rows="5" name="context"></textarea>
+		<input type="submit" value="post" />
+	</form>
+	{% if context %}
+	<div>{{ context }}</div>
+	{% endif %}
+	</body>
+</html>
